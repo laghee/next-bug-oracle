@@ -5,20 +5,22 @@
 <title>Webcompat Next Bug Oracle</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Decisions are tiring.  Just push the button.">
+<meta name="description" content="Go forth and diagnose!">
 <link rel="stylesheet" type="text/css" href="{% static 'nbo/style.css' %}">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 
 <body>
     <div class="w3-animate-opacity">
         <div class="center">
-            <button class="w3-animate-top">GET NEXT BUG!</button>
+            <h1 class="w3-animate-top">THIS BUG'S FOR YOU:</h1>
             <hr>
-            <p>Webcompat Oracle loves you...</p>
+            <p>
+                <a href="{{ bug.bug_link }}"> {{ bug.bug_num }}</a>: {{ bug.bug_text }}
+            </p>
         </div>
         <div class="fineprint">
-            Go to
-            <a href="https://www.webcompat.com" target="_blank">webcompat.com</a>.
+            Nooooooooo! Not THAT bug...
+            <a href="https://www.webcompat.com">I want a do-over.</a>.
         </div>
     </div>
 </body>

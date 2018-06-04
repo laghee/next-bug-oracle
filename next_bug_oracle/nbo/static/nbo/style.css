@@ -5,6 +5,11 @@ body {
   color: black !important;
 }
 
+h1 {
+  font-size: 64px;
+  font-weight: 400;
+}
+
 button {
   color: white;
   font-size: 64px;
@@ -47,7 +52,7 @@ hr {
   box-sizing: border-box;
 }
 
-.info {
+.fineprint {
   position: absolute;
   right: 0;
   bottom: 0;
