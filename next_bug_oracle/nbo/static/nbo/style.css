@@ -44,6 +44,8 @@ hr {
 
 .center {
   position: absolute;
+  vertical-align: middle;
+  text-align: center;
   padding: 1em;
   top: 50%;
   left: 50%;
@@ -60,7 +62,7 @@ hr {
   font-size: 14px !important;
 }
 
-.w3-animate-opacity {
+.animate-opacity {
   animation: opac 1.5s;
 }
 @keyframes opac {
@@ -71,7 +73,7 @@ hr {
     opacity: 1;
   }
 }
-.w3-animate-top {
+.animate-top {
   position: relative;
   animation: animatetop 0.8s;
 }
@@ -84,4 +86,8 @@ hr {
     top: 0;
     opacity: 1;
   }
+}
+
+.your-bug {
+  color: orangered;
 }

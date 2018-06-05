@@ -10,17 +10,16 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 
 <body>
-    <div class="w3-animate-opacity">
+    <div class="animate-opacity">
         <div class="center">
-            <h1 class="w3-animate-top">THIS BUG'S FOR YOU:</h1>
-            <hr>
+            <h1 class="animate-top your-bug">THIS BUG'S FOR YOU:</h1>
             <p>
-                <a href="{{ bug.bug_link }}"> {{ bug.bug_num }}</a>: {{ bug.bug_text }}
+                <a href="{{ bug.link }}"> {{ bug.bug_id }}</a>: {{ bug.bug_text }}
             </p>
         </div>
         <div class="fineprint">
             Nooooooooo! Not THAT bug...
-            <a href="https://www.webcompat.com">I want a do-over.</a>.
+            <a href="{% url 'nbo:index' %}">I want a do-over</a>.
         </div>
     </div>
 </body>

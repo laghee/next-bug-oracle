@@ -8,11 +8,12 @@
 <meta name="description" content="Decisions are tiring.  Just push the button.">
 <link rel="stylesheet" type="text/css" href="{% static 'nbo/style.css' %}">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<script async src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 <body>
-    <div class="w3-animate-opacity">
+    <div class="animate-opacity">
         <div class="center">
-            <button class="w3-animate-top">GET NEXT BUG!</button>
+            <button class="animate-top" onclick="location.href='{% url 'nbo:result' %}'">GET NEXT BUG!</button>
             <hr>
             <p>Webcompat Oracle loves you...</p>
         </div>
