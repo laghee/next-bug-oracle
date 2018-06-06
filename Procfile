@@ -1,1 +1,1 @@
-web: gunicorn next_bug_oracle.app
+web: gunicorn next-bug-oracle.wsgi --log-file -
