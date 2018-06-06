@@ -1,1 +1,1 @@
-web: gunicorn next-bug-oracle.app
+web: gunicorn next_bug_oracle.app
