@@ -1,1 +1,1 @@
-web: gunicorn nbo.app
+web: gunicorn next-bug-oracle.app
