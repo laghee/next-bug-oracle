@@ -10,8 +10,10 @@ requests = "*"
 django = "*"
 gunicorn = "*"
 dj-database-url = "*"
+psycopg2 = "*"
 whitenoise = "*"
 "autopep8" = "*"
+"pep8" = "*"
 
 [requires]
 python_version = "3.6.5"
