@@ -9,6 +9,7 @@ name = "pypi"
 requests = "*"
 django = "*"
 django-heroku = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.6"
