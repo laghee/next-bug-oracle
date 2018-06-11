@@ -14,12 +14,12 @@
         <div class="center">
             <h1 class="animate-top your-bug">THIS BUG'S FOR YOU:</h1>
             <p>
-                <a href="{{ bug.link }}"> {{ bug.bug_id }}</a>: {{ bug.bug_text }}
+                <a href="{{ bug.link }}" target="_blank"> {{ bug.bug_id }}</a>: {{ bug.bug_text }}
             </p>
         </div>
         <div class="fineprint">
-            Nooooooooo! Not THAT bug...
-            <a href="{% url 'nbo:index' %}">I want a do-over</a>.
+            Auuuuugh, not THAT one!
+            <a href="{% url 'nbo:index' %}">(New bug, please.)</a>.
         </div>
     </div>
 </body>
