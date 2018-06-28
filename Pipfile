@@ -14,6 +14,9 @@ psycopg2 = "*"
 whitenoise = "*"
 "autopep8" = "*"
 pycodestyle = "*"
+requests-oauthlib = "*"
+heroku = "*"
+"pep8" = "*"
 
 [requires]
 python_version = "3.6.5"
